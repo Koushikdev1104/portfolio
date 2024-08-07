@@ -2607,7 +2607,7 @@ input, select, textarea {
 						ul.actions:not(.fixed) li input[type="reset"].icon:before,
 						ul.actions:not(.fixed) li input[type="button"].icon:before,
 						ul.actions:not(.fixed) li button.icon:before,
-						ul.actions:not(.fixed) li .button.icon:before {
+						ul.actions:not(.fixed) li .button. :before {
 							margin-left: -0.5rem;
 						}
 
@@ -2905,10 +2905,10 @@ input, select, textarea {
 
 			.statistics li strong, .statistics li b {
 				display: block;
-				font-size: 2em;
+				font-size: 30px;
 				line-height: 1.1;
 				color: inherit !important;
-				font-weight: 300;
+				font-weight: 150;
 				letter-spacing: -0.025em;
 			}
 
@@ -2944,6 +2944,7 @@ input, select, textarea {
 			.statistics {
 				display: block;
 				width: 20em;
+				font-size: 10px;
 				max-width: 100%;
 				margin: 0 auto 2em auto;
 			}
@@ -2999,14 +3000,16 @@ input, select, textarea {
 
 		.spotlight .image {
 			display: inline-block;
+			width: 2.25em
+			height: 2.25em
 			margin-left: 4em;
 			padding: 0.65em;
 			border-radius: 100%;
-			border: solid 1px;
+			
 		}
 
 			.spotlight .image img {
-				display: block;
+				display: inline-block;
 				border-radius: 100%;
 				width: 16em;
 			}
